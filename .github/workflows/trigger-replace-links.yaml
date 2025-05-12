@@ -14,7 +14,7 @@ jobs:
       - name: Find and Replace Repository Name
         uses: jacobtomlinson/gha-find-replace@v3
         with:
-          find: "ProjectPythia/cookbook-template"
+          find: "ProjectPythia/land-atmosphere-interactions-and-hydrology-cookbook"
           replace: "${{ github.repository_owner }}/${{ github.event.repository.name }}"
           regex: false
           exclude: ".github/workflows/trigger-replace-links.yaml"

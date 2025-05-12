@@ -1,4 +1,4 @@
-name: cookbook-dev
+name: land-atmosphere-interactions-and-hydrology-cookbook-dev
 channels:
   - conda-forge
 dependencies:
