@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Project Pythia Notebook Template &#8212; Land-Atmosphere and Hydrology Applications Cookbook</title>
+    <title>Project Pythia Notebook Template &#8212; Digital Earths Global Hackathon: Land-Atmosphere and Hydrology Applications Cookbook</title>
   
   
   
@@ -77,10 +77,9 @@
     <link rel="icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="How to Cite This Cookbook" href="how-to-cite.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="14 May 2025"/>
+    <meta name="docbuild:last-update" content="16 May 2025"/>
   </head>
   
   
@@ -118,8 +117,8 @@
       
     
     
-    <img src="../_static/pythia_logo-white-rtext.svg" class="logo__image only-light" alt="Land-Atmosphere and Hydrology Applications Cookbook - Home"/>
-    <script>document.write(`<img src="../_static/pythia_logo-white-rtext.svg" class="logo__image only-dark" alt="Land-Atmosphere and Hydrology Applications Cookbook - Home"/>`);</script>
+    <img src="../_static/pythia_logo-white-rtext.svg" class="logo__image only-light" alt="Digital Earths Global Hackathon: Land-Atmosphere and Hydrology Applications Cookbook - Home"/>
+    <script>document.write(`<img src="../_static/pythia_logo-white-rtext.svg" class="logo__image only-dark" alt="Digital Earths Global Hackathon: Land-Atmosphere and Hydrology Applications Cookbook - Home"/>`);</script>
   
   
 </a></div>
@@ -234,6 +233,8 @@
     <div class="bd-container__inner bd-page-width">
         
         
+        
+          
         
         <div class="bd-sidebar-primary bd-sidebar">
           
@@ -361,7 +362,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../README.html">
-                    Land-Atmosphere and Hydrology Applications Cookbook
+                    Digital Earths Global Hackathon: Land-Atmosphere and Hydrology Applications Cookbook
                 </a>
             </li>
         </ul>
@@ -369,9 +370,17 @@
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="how-to-cite.html">How to Cite This Cookbook</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Introduction</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Project Pythia Notebook Template</a></li>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Notebooks (work in progress)</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="calc_PET_coupling_icon_d3hp003.html">Calculate the SM-T coupling using icon_d3hp003</a></li>
+<li class="toctree-l1"><a class="reference internal" href="calc_PET_coupling_ifs_tco3999-ng5_rcbmf_cf.html">Calculate the SM-T coupling using ifs_tco3999-ng5_rcbmf_cf</a></li>
+<li class="toctree-l1"><a class="reference internal" href="calc_le_prcp_corr.html">Calculate the LE-prcp correlation</a></li>
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="healpix_wrf_conus_wind.html">HEALPIX FOR REGIONAL DATA LIKE CONUS DOESN’T WORK (YET)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="obs_urban_impact_on_coupling.html">Check on urban-specific urban signals</a></li>
+
 </ul>
 
     </div>
@@ -483,11 +492,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Hello world!
-</pre></div>
-</div>
-</div>
 </div>
 <section id="a-content-subsection">
 <h3>A content subsection<a class="headerlink" href="#a-content-subsection" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
@@ -518,8 +522,8 @@
 <section id="header-levels">
 <h6>header levels<a class="headerlink" href="#header-levels" title="Link to this heading"><i class="fas fa-link"></i></a></h6>
 <p>as well <span class="math notranslate nohighlight">\(m = a * t / h\)</span> text! Similarly, you have access to other <span class="math notranslate nohighlight">\(\LaTeX\)</span> equation <a class="reference external" href="https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Typesetting%20Equations.html"><strong>functionality</strong></a> via MathJax (demo below from link),</p>
-<div class="amsmath math notranslate nohighlight" id="equation-8f40eaa1-efe3-4bb4-830d-ca7811bdf562">
-<span class="eqno">(1)<a class="headerlink" href="#equation-8f40eaa1-efe3-4bb4-830d-ca7811bdf562" title="Permalink to this equation"><i class="fas fa-link"></i></a></span>\[\begin{align}
+<div class="amsmath math notranslate nohighlight" id="equation-b291af7e-d536-47b2-bea1-af9184c7c16c">
+<span class="eqno">()<a class="headerlink" href="#equation-b291af7e-d536-47b2-bea1-af9184c7c16c" title="Permalink to this equation"><i class="fas fa-link"></i></a></span>\[\begin{align}
 \dot{x} &amp; = \sigma(y-x) \\
 \dot{y} &amp; = \rho x - y - xz \\
 \dot{z} &amp; = -\beta z + xy
@@ -605,15 +609,6 @@
                   <footer class="prev-next-footer">
                     
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="how-to-cite.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">How to Cite This Cookbook</p>
-      </div>
-    </a>
 </div>
                   </footer>
                 
@@ -891,7 +886,7 @@ By the <a href="https://projectpythia.org/">Project Pythia</a> Community
 
   <p class="copyright">
     
-      © Copyright 2024.
+      © Copyright 2025.
       <br/>
     
   </p>
@@ -900,7 +895,7 @@ By the <a href="https://projectpythia.org/">Project Pythia</a> Community
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on 14 May 2025.
+  Last updated on 16 May 2025.
   <br/>
 </p>
   </div>
@@ -950,11 +945,11 @@ By the <a href="https://projectpythia.org/">Project Pythia</a> Community
     <div class="container-xl">
       <div class="d-flex justify-content-center">
         <p class="py-1 m-0">
-            &copy;&nbsp;2024.
+            &copy;&nbsp;2025.
         
           By the <a href="https://projectpythia.org/">Project Pythia</a> Community.
         
-          Last updated on 14 May 2025.
+          Last updated on 16 May 2025.
         </p>
       </div>
     </div>

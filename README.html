@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Land-Atmosphere and Hydrology Applications Cookbook &#8212; Land-Atmosphere and Hydrology Applications Cookbook</title>
+    <title>Digital Earths Global Hackathon: Land-Atmosphere and Hydrology Applications Cookbook &#8212; Digital Earths Global Hackathon: Land-Atmosphere and Hydrology Applications Cookbook</title>
   
   
   
@@ -71,8 +71,6 @@
                 gtag('config', 'G-T52X8HNYE8');
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'README';</script>
     <link rel="icon" href="_static/favicon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
@@ -80,7 +78,7 @@
     <link rel="next" title="How to Cite This Cookbook" href="notebooks/how-to-cite.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="14 May 2025"/>
+    <meta name="docbuild:last-update" content="16 May 2025"/>
   </head>
   
   
@@ -118,8 +116,8 @@
       
     
     
-    <img src="_static/pythia_logo-white-rtext.svg" class="logo__image only-light" alt="Land-Atmosphere and Hydrology Applications Cookbook - Home"/>
-    <script>document.write(`<img src="_static/pythia_logo-white-rtext.svg" class="logo__image only-dark" alt="Land-Atmosphere and Hydrology Applications Cookbook - Home"/>`);</script>
+    <img src="_static/pythia_logo-white-rtext.svg" class="logo__image only-light" alt="Digital Earths Global Hackathon: Land-Atmosphere and Hydrology Applications Cookbook - Home"/>
+    <script>document.write(`<img src="_static/pythia_logo-white-rtext.svg" class="logo__image only-dark" alt="Digital Earths Global Hackathon: Land-Atmosphere and Hydrology Applications Cookbook - Home"/>`);</script>
   
   
 </a></div>
@@ -363,7 +361,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
-                    Land-Atmosphere and Hydrology Applications Cookbook
+                    Digital Earths Global Hackathon: Land-Atmosphere and Hydrology Applications Cookbook
                 </a>
             </li>
         </ul>
@@ -371,9 +369,17 @@
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="notebooks/how-to-cite.html">How to Cite This Cookbook</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Notebooks (work in progress)</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="notebooks/notebook-template.html">Project Pythia Notebook Template</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/calc_PET_coupling_icon_d3hp003.html">Calculate the SM-T coupling using icon_d3hp003</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/calc_PET_coupling_ifs_tco3999-ng5_rcbmf_cf.html">Calculate the SM-T coupling using ifs_tco3999-ng5_rcbmf_cf</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/calc_le_prcp_corr.html">Calculate the LE-prcp correlation</a></li>
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="notebooks/healpix_wrf_conus_wind.html">HEALPIX FOR REGIONAL DATA LIKE CONUS DOESN’T WORK (YET)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/obs_urban_impact_on_coupling.html">Check on urban-specific urban signals</a></li>
+
 </ul>
 
     </div>
@@ -405,19 +411,15 @@
                     
   <a class="reference internal image-reference" href="_images/thumbnail.png"><img alt="thumbnail" src="_images/thumbnail.png" style="width: 300px;" />
 </a>
-<section class="tex2jax_ignore mathjax_ignore" id="land-atmosphere-and-hydrology-applications-cookbook">
-<h1>Land-Atmosphere and Hydrology Applications Cookbook<a class="headerlink" href="#land-atmosphere-and-hydrology-applications-cookbook" title="Link to this heading"><i class="fas fa-link"></i></a></h1>
+<section class="tex2jax_ignore mathjax_ignore" id="digital-earths-global-hackathon-land-atmosphere-and-hydrology-applications-cookbook">
+<h1>Digital Earths Global Hackathon: Land-Atmosphere and Hydrology Applications Cookbook<a class="headerlink" href="#digital-earths-global-hackathon-land-atmosphere-and-hydrology-applications-cookbook" title="Link to this heading"><i class="fas fa-link"></i></a></h1>
 <p><a class="reference external" href="https://github.com/ProjectPythia/land-atmosphere-interactions-and-hydrology-cookbook/actions/workflows/nightly-build.yaml"><img alt="nightly-build" src="https://github.com/ProjectPythia/land-atmosphere-interactions-and-hydrology-cookbook/actions/workflows/nightly-build.yaml/badge.svg" /></a>
 <a class="reference external" href="https://binder.projectpythia.org/v2/gh/ProjectPythia/land-atmosphere-interactions-and-hydrology-cookbook/main?labpath=notebooks"><img alt="Binder" src="https://binder.projectpythia.org/badge_logo.svg" /></a>
 <a class="reference external" href="https://zenodo.org/badge/latestdoi/475509405"><img alt="DOI" src="https://zenodo.org/badge/475509405.svg" /></a></p>
-<p>This Project Pythia Cookbook covers … (replace <code class="docutils literal notranslate"><span class="pre">...</span></code> with the main subject of your cookbook … e.g., <em>working with radar data in Python</em>)</p>
-<section id="motivation">
-<h2>Motivation<a class="headerlink" href="#motivation" title="Link to this heading"><i class="fas fa-link"></i></a></h2>
-<p>(Add a few sentences stating why this cookbook will be useful. What skills will you, “the chef”, gain once you have reached the end of the cookbook?)</p>
-</section>
+<p>This Project Pythia Cookbook contains a collection of computational notebooks for land-atmosphere and hydrology applications from the NSF NCAR node of the 2025 Digital Earths Global Hackathon.</p>
 <section id="authors">
 <h2>Authors<a class="headerlink" href="#authors" title="Link to this heading"><i class="fas fa-link"></i></a></h2>
-<p><a class="reference internal" href="#&#64;first-author"><span class="xref myst">First Author</span></a>, <a class="reference internal" href="#&#64;second-author"><span class="xref myst">Second Author</span></a>, etc. <em>Acknowledge primary content authors here</em></p>
+<p><a class="reference internal" href="#&#64;ejanzon"><span class="xref myst">Erik Janzon</span></a>, <a class="reference internal" href="#&#64;Charlotte1891"><span class="xref myst">Yifan Cheng</span></a>, <a class="reference internal" href="#&#64;aashishpanta0"><span class="xref myst">Aashish Panta</span></a>, and <a class="reference internal" href="#&#64;kafitzgerald"><span class="xref myst">Katelyn FitzGerald</span></a></p>
 <section id="contributors">
 <h3>Contributors<a class="headerlink" href="#contributors" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
 <a href="https://github.com/ProjectPythia/land-atmosphere-interactions-and-hydrology-cookbook/graphs/contributors">
@@ -427,15 +429,7 @@
 </section>
 <section id="structure">
 <h2>Structure<a class="headerlink" href="#structure" title="Link to this heading"><i class="fas fa-link"></i></a></h2>
-<p>(State one or more sections that will comprise the notebook. E.g., <em>This cookbook is broken up into two main sections - “Foundations” and “Example Workflows.”</em> Then, describe each section below.)</p>
-<section id="section-1-replace-with-the-title-of-this-section-e-g-foundations">
-<h3>Section 1 ( Replace with the title of this section, e.g. “Foundations” )<a class="headerlink" href="#section-1-replace-with-the-title-of-this-section-e-g-foundations" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
-<p>(Add content for this section, e.g., “The foundational content includes … “)</p>
-</section>
-<section id="section-2-replace-with-the-title-of-this-section-e-g-example-workflows">
-<h3>Section 2 ( Replace with the title of this section, e.g. “Example workflows” )<a class="headerlink" href="#section-2-replace-with-the-title-of-this-section-e-g-example-workflows" title="Link to this heading"><i class="fas fa-link"></i></a></h3>
-<p>(Add content for this section, e.g., “Example workflows include … “)</p>
-</section>
+<p>Includes our work in progress notebooks for the time being.</p>
 </section>
 <section id="running-the-notebooks">
 <h2>Running the Notebooks<a class="headerlink" href="#running-the-notebooks" title="Link to this heading"><i class="fas fa-link"></i></a></h2>
@@ -552,16 +546,11 @@ jupyter<span class="w"> </span>lab
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#motivation">Motivation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#authors">Authors</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contributors">Contributors</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure">Structure</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#section-1-replace-with-the-title-of-this-section-e-g-foundations">Section 1 ( Replace with the title of this section, e.g. “Foundations” )</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#section-2-replace-with-the-title-of-this-section-e-g-example-workflows">Section 2 ( Replace with the title of this section, e.g. “Example workflows” )</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure">Structure</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-the-notebooks">Running the Notebooks</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#running-on-binder">Running on Binder</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#running-on-your-own-machine">Running on Your Own Machine</a></li>
@@ -769,7 +758,7 @@ By the <a href="https://projectpythia.org/">Project Pythia</a> Community
 
   <p class="copyright">
     
-      © Copyright 2024.
+      © Copyright 2025.
       <br/>
     
   </p>
@@ -778,7 +767,7 @@ By the <a href="https://projectpythia.org/">Project Pythia</a> Community
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on 14 May 2025.
+  Last updated on 16 May 2025.
   <br/>
 </p>
   </div>
@@ -828,11 +817,11 @@ By the <a href="https://projectpythia.org/">Project Pythia</a> Community
     <div class="container-xl">
       <div class="d-flex justify-content-center">
         <p class="py-1 m-0">
-            &copy;&nbsp;2024.
+            &copy;&nbsp;2025.
         
           By the <a href="https://projectpythia.org/">Project Pythia</a> Community.
         
-          Last updated on 14 May 2025.
+          Last updated on 16 May 2025.
         </p>
       </div>
     </div>
