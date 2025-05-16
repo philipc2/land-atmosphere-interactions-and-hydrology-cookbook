@@ -2,11 +2,11 @@ cff-version: 1.2.0
 message: "If you use this cookbook, please cite it as below."
 authors:
   # add additional entries for each author -- see https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md
-  - family-names: Last
-    given-names: First
-    orcid: https://orcid.org/xxxx-xxxx-xxxx-xxxx # optional
+  - family-names: Panta
+    given-names: Aashish
+    orcid: https://orcid.org/0009-0001-5843-2098
     website: URL # optional
-    affiliation: Affiliation # optional
+    affiliation: University of Utah
   - family-names: Last 2
     given-names: First 2
     orcid: https://orcid.org/yyyy-yyyy-yyyy-yyyy
