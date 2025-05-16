@@ -4,6 +4,14 @@ parts:
   - caption: Preamble
     chapters:
       - file: notebooks/how-to-cite
-  - caption: Introduction
+  - caption: Notebooks (work in progress)
     chapters:
-      - file: notebooks/notebook-template
+      - file: notebooks/calc_PET_coupling_icon_d3hp003.ipynb
+      - file: notebooks/calc_PET_coupling_ifs_tco3999-ng5_rcbmf_cf.ipynb
+      - file: notebooks/calc_le_prcp_corr.ipynb
+      - file: notebooks/healpix_wrf_conus_wind.ipynb
+      - file: notebooks/obs_urban_impact_on_coupling.ipynb
+      - file: notebooks/read_visualize_wind_idx.ipynb
+      - file: notebooks/reencode_wrf_conus.ipynb
+      - file: notebooks/soilmoisture_precipICON-2.ipynb
+      - file: notebooks/soilmoisture_precip_MPAS.ipynb
