@@ -29,8 +29,3 @@ project:
   jupyter:
       binder:
         repo: projectpythia/land-atmosphere-interactions-and-hydrology-cookbook
-site:
-  options:
-    logo: notebooks/images/logos/pythia_logo-white-rtext.svg
-    folders: true
-  template: book-theme
