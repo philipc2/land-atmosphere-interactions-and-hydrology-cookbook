@@ -1,1 +1,0 @@
-import{c as t}from"/land-atmosphere-interactions-and-hydrology-cookbook/_preview/12/build/_shared/chunk-2NH4LW52.js";var i=t((a,n)=>{function e(s){return{name:"VBScript in HTML",subLanguage:"xml",contains:[{begin:"<%",end:"%>",subLanguage:"vbscript"}]}}n.exports=e});export default i();
